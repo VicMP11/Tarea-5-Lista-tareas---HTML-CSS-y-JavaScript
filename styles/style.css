@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(160, 179, 186, 0.688);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+header {
+    text-align: center;
+}
+input {
+    border-color: rgb(182, 106, 253);
+    padding: 7px;
+    border-radius: 6px;
+}
+button {
+    padding: 10px;
+    background-color: rgb(180, 151, 207);
+    color: white;
+    border-color: rgb(180, 151, 207);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
