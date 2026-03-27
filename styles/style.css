@@ -8,7 +8,7 @@ body {
 section {
     background-color: rgb(255, 255, 255);
     height: auto;
-    width: auto;
+    width: 300px;
     padding: 20px;
     border-radius: 6px;
 }
@@ -17,9 +17,10 @@ header {
     text-align: center;
 }
 input {
-    border-color: rgb(182, 106, 253);
+    border-color: rgb(195, 133, 254);
     padding: 7px;
     border-radius: 6px;
+    width: 210px;
 }
 button {
     padding: 10px;
@@ -29,4 +30,16 @@ button {
     border: none;
     border-radius: 6px;
     font-weight: bold;
+}
+p {
+    background-color: rgb(232, 232, 232);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.botonTarea {
+    background-color: rgb(255, 145, 145);
 }
